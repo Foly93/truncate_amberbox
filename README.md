@@ -1,3 +1,9 @@
+# Keywords
+- amber simulations
+- remove excess solvent
+- remove excess water
+- truncate simulation box
+
 # Preliminaries
 Python packages to install 
 - MDAnalysis
