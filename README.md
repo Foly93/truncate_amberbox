@@ -10,4 +10,4 @@ The truncation process only keeps the specified amount of solvent molecules whic
 
 In the examples/ are dummy output files from an amber simulation run that can be truncated interactively with the jupyter notebook that can be found also in examples/. The jupyter notebook contains the same code as the python script, with the difference that the notebook does not parse user input. Apart of the simulation output and the notebook, all files that would be generated from a successful execution are also already available and would be updated upon executing every jupyter cell without adjustment.
 
-Usage: `<./truncate_simbox.py.v0.0 -p path/to/prmtop -x path/to/mdcrd4 -N 7000 --csel 'protein or nucleic or resname G5 or resname C3' -c 0.082>`
+Usage: `./truncate_simbox.py.v0.0 -p path/to/prmtop -x path/to/mdcrd4 -N 7000 --csel 'protein or nucleic or resname G5 or resname C3' -c 0.082`
