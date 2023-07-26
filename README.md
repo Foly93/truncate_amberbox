@@ -1,8 +1,8 @@
 # Keywords
 - amber simulations
-- remove excess solvent
-- remove excess water
+- remove excess solvent/excess water
 - truncate simulation box
+- change box-dimensions/box-boundaries
 
 # Preliminaries
 Python packages to install 
