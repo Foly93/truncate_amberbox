@@ -48,47 +48,51 @@ Loading library: /home/luisvollmers/anaconda3/envs/mdanal/dat/leap/lib/amino12.l
 Loading library: /home/luisvollmers/anaconda3/envs/mdanal/dat/leap/lib/aminoct12.lib
 Loading library: /home/luisvollmers/anaconda3/envs/mdanal/dat/leap/lib/aminont12.lib
 Loading PDB file: ./trunc_a.pdb
+-- residue 2137: duplicate [ H1] atoms (total 2)
+-- residue 2137: duplicate [ H2] atoms (total 2)
+-- residue 2137: duplicate [ O] atoms (total 2)
 
 /home/luisvollmers/anaconda3/envs/mdanal/bin/teLeap: Warning!
-One sided connection. Residue (default_name) missing connect1 atom.
-  total atoms in file: 15489
-  Leap added 345 missing atoms according to residue templates:
-       345 H / lone pairs
-Scaling up box by a factor of 1.177190 to meet diagonal cut criterion
-  Solute vdw bounding box:              70.263 70.117 69.733
-  Total bounding box for atom centers:  70.263 70.263 70.263
-      (box expansion for 'iso' is   1.0%)
+Atom names in each residue should be unique.
+     (Same-name atoms are handled by using the first
+      occurrence and by ignoring the rest.
+      Many instances of duplicate atom names usually come
+      from alternate conformations in the PDB file.)
+
+  total atoms in file: 15836
+Scaling up box by a factor of 1.180915 to meet diagonal cut criterion
+  Solute vdw bounding box:              69.840 70.094 69.942
+  Total bounding box for atom centers:  70.094 70.094 70.094
+      (box expansion for 'iso' is   0.6%)
   Solvent unit box:                     18.774 18.774 18.774
-  Volume: 180948.463 A^3 (oct)
-  Total mass 99847.072 amu,  Density 0.916 g/cc
-  Added 142 residues.
-10 Na+ ions required to neutralize.
-Adding 10 counter ions to "system" using 1A grid
-Grid extends from solute vdw + 3.04  to  9.14
+  Volume: 179669.583 A^3 (oct)
+  Total mass 99506.784 amu,  Density 0.920 g/cc
+  Added 124 residues.
+9 Na+ ions required to neutralize.
+Adding 9 counter ions to "system" using 1A grid
+Grid extends from solute vdw + 2.95  to  9.05
 Resolution:      1.00 Angstrom.
 Solvent present: replacing closest with ion
 	 when steric overlaps occur
 Calculating grid charges
 (Replacing solvent molecule)
-Placed Na+ in system at (-0.86, 13.50, 2.03).
+Placed Na+ in system at (2.18, 9.62, 2.60).
 (Replacing solvent molecule)
-Placed Na+ in system at (3.39, 8.34, 4.14).
+Placed Na+ in system at (-5.60, 14.65, -1.85).
 (Replacing solvent molecule)
-Placed Na+ in system at (-4.32, -9.28, -15.01).
+Placed Na+ in system at (-4.37, -10.84, -13.98).
 (Replacing solvent molecule)
-Placed Na+ in system at (-5.27, 17.68, -5.99).
+Placed Na+ in system at (4.25, 17.63, -2.09).
 (Replacing solvent molecule)
-Placed Na+ in system at (-14.39, 16.05, -1.51).
+Placed Na+ in system at (-16.10, 11.22, -0.98).
 (Replacing solvent molecule)
-Placed Na+ in system at (7.29, 16.22, 0.51).
+Placed Na+ in system at (10.35, -1.47, -10.98).
 (Replacing solvent molecule)
-Placed Na+ in system at (11.85, -5.40, -6.29).
+Placed Na+ in system at (-5.56, -14.43, -4.97).
 (Replacing solvent molecule)
-Placed Na+ in system at (4.54, -11.17, -18.92).
+Placed Na+ in system at (-1.63, 7.40, -8.55).
 (Replacing solvent molecule)
-Placed Na+ in system at (-6.60, -4.21, 15.05).
-(Replacing solvent molecule)
-Placed Na+ in system at (0.73, -0.70, -13.52).
+Placed Na+ in system at (-3.06, -17.09, -16.26).
 
 Done adding ions.
  0.000000 0 1 0
@@ -101,41 +105,44 @@ Solvent present: replacing closest with ion
 	 when steric overlaps occur
 Calculating grid charges
 (Replacing solvent molecule)
-Placed Na+ in system at (-12.11, -10.10, -1.08).
+Placed Na+ in system at (-10.28, 16.45, 13.63).
 (Replacing solvent molecule)
-Placed Cl- in system at (-12.88, -12.71, 2.23).
+Placed Cl- in system at (-12.11, 20.56, 14.80).
 (Replacing solvent molecule)
-Placed Na+ in system at (-12.84, -17.35, 3.57).
+Placed Na+ in system at (-14.69, 21.00, 13.97).
 (Replacing solvent molecule)
-Placed Cl- in system at (-10.84, -17.98, 6.09).
+Placed Cl- in system at (-14.44, 21.71, 8.77).
 (Replacing solvent molecule)
-Placed Na+ in system at (-8.72, -16.13, 9.49).
+Placed Na+ in system at (-16.24, 20.03, 5.14).
 (Replacing solvent molecule)
-Placed Cl- in system at (-6.82, -14.12, 13.53).
+Placed Cl- in system at (-13.30, 21.73, 4.26).
 (Replacing solvent molecule)
-Placed Na+ in system at (-3.90, -15.87, 14.25).
+Placed Na+ in system at (-10.28, 22.44, 3.24).
 (Replacing solvent molecule)
-Placed Cl- in system at (-6.90, -17.19, 10.72).
+Placed Cl- in system at (-9.48, 23.14, -0.81).
 (Replacing solvent molecule)
-Placed Na+ in system at (-10.00, -17.04, 14.13).
+Placed Na+ in system at (-10.37, 19.11, 7.20).
 (Replacing solvent molecule)
-Placed Cl- in system at (-8.10, -17.56, 15.81).
+Placed Cl- in system at (-9.02, 18.71, 10.71).
 (Replacing solvent molecule)
-Placed Na+ in system at (-6.43, -13.12, 17.57).
+Placed Na+ in system at (-12.01, 23.44, -2.89).
 (Replacing solvent molecule)
-Placed Cl- in system at (-1.90, -14.39, 18.11).
+Placed Cl- in system at (-7.12, 24.35, 6.41).
 (Replacing solvent molecule)
-Placed Na+ in system at (2.93, -15.02, 18.32).
+Placed Na+ in system at (-4.56, 21.50, 3.58).
 (Replacing solvent molecule)
-Placed Cl- in system at (10.54, -22.28, 9.84).
+Placed Cl- in system at (-5.20, 19.33, 4.33).
 (Replacing solvent molecule)
-Placed Na+ in system at (10.15, -25.13, 7.91).
+Placed Na+ in system at (-5.19, 21.26, 8.09).
 (Replacing solvent molecule)
-Placed Cl- in system at (5.87, -15.85, 13.57).
+Placed Cl- in system at (-1.05, 21.18, 6.04).
 
 Done adding ions.
 Writing pdb file: system.pdb
    printing CRYST1 record to PDB file with box info
+
+/home/luisvollmers/anaconda3/envs/mdanal/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NASN -> ASN
 
 /home/luisvollmers/anaconda3/envs/mdanal/bin/teLeap: Warning!
  Converting C-terminal residue name to PDB format: CTHR -> THR
@@ -157,9 +164,10 @@ Marking per-residue atom chain types.
 	res	total affected
 
 	CTHR	1
-	WAT	5116
+	NASN	1
+	WAT	5098
   )
  (no restraints)
 	Quit
 
-Exiting LEaP: Errors = 0; Warnings = 2; Notes = 1.
+Exiting LEaP: Errors = 0; Warnings = 3; Notes = 1.
