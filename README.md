@@ -19,3 +19,5 @@ In the examples/ are dummy output files from an amber simulation run that can be
 Usage: `./truncate_simbox.py -p path/to/prmtop -x path/to/mdcrd -N 7000 --csel 'protein or nucleic or resname G5 or resname C3' -c 0.082 -s tip3p`
 
 The system that is then outputted is somewhat non-standard and needs careful treatment when equilibrating it with pmemd.cuda or sander. What seemed to work is to skip the NVT equilibration and instead run an NPT with a decreased time step. Thus: EM -> NPTSLOW -> NPT -> PRE -> PROD. The timestep can be set to around 0.1 fs for NPTSLOW.
+# To-Do
+Make the molecule identification use Residue Connections and not Atom bonds.
